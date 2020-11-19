@@ -17,14 +17,11 @@ sidecar/extensions/nomad/config.js
 sugarcrm/config_si.php
 sugarcrm/portal2/config.js
 *~
-translations/
 /.idea
 /.settings
 .DS_Store
-sugarcrm/custom/include/
-sugarcrm/custom/modules/
-sugarcrm/custom/Extension/
-sugarcrm/custom/themes/
+sugarcrm/custom/modules/*/Ext
+sugarcrm/custom/application/Ext
 build/rome/MAMP
 atlassian-ide-plugin.xml
 sugarcrm/node_modules
@@ -35,9 +32,12 @@ sugarcrm/vendor/*
 !sugarcrm/vendor/Smarty
 !sugarcrm/vendor/XTemplate
 !sugarcrm/vendor/Zend
+!sugarcrm/vendor/lessphp
+!sugarcrm/vendor/log4php
 !sugarcrm/vendor/oauth2-php
 !sugarcrm/vendor/nusoap
 !sugarcrm/vendor/pclzip
+!sugarcrm/vendor/reCaptcha
 !sugarcrm/vendor/tcpdf
 !sugarcrm/vendor/ytree
 sugarcrm/testsunit/phpunit.xml
@@ -45,5 +45,7 @@ sugarcrm/tests/phpunit.xml
 sugarcrm/styleguide/assets/css/sugar.css
 sugarcrm/styleguide/assets/css/bootstrap.css
 sugarcrm/dist
+sugarcrm/custom/history
+sugarcrm/custom/blowfish/
 sugarcrm/cache/Expressions/
 sugarcrm/cache/class_map.php

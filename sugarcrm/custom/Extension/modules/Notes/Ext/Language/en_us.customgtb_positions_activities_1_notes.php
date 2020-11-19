@@ -1,0 +1,3 @@
+<?php
+
+$mod_strings['LBL_GTB_POSITIONS_ACTIVITIES_1_NOTES_FROM_GTB_POSITIONS_TITLE'] = 'Positions';

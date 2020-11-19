@@ -1,0 +1,4 @@
+<?php
+
+$mod_strings['LBL_DOCUMENTS_GTB_POSITIONS_1_FROM_GTB_POSITIONS_TITLE'] = 'Positions';
+$mod_strings['LBL_DOCUMENTS_GTB_POSITIONS_1_FROM_DOCUMENTS_TITLE'] = 'Positions';
