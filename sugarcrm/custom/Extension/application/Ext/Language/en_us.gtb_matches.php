@@ -16,6 +16,7 @@ $app_list_strings['gtb_matches_status_list']['Open'] = 'Open';
 $app_list_strings['gtb_matches_status_list']['Placed'] = 'Placed';
 $app_list_strings['gtb_matches_status_list']['Rejected'] = 'Rejected';
 $app_list_strings['gtb_matches_status_list']['Not_Interested'] = 'Not Interested';
+$app_list_strings['gtb_matches_stage_list']['Positions_tobe'] = '0. Position to be shared';
 $app_list_strings['gtb_matches_stage_list']['Positions_Shared'] = '1. Positions Shared';
 $app_list_strings['gtb_matches_stage_list']['In_Discussions'] = '2. In Discussions';
 $app_list_strings['gtb_matches_stage_list']['Short_Listed'] = '3. Short listed';

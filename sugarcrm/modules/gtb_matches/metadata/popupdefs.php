@@ -21,29 +21,62 @@ $popupMeta = array (
     'width' => 10,
     'name' => 'name',
   ),
-  'STATUS' => 
+  'CONTACTS_GTB_MATCHES_1_NAME' => 
   array (
-    'type' => 'enum',
-    'default' => true,
-    'label' => 'LBL_STATUS',
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_CONTACTS_GTB_MATCHES_1_FROM_CONTACTS_TITLE',
+    'id' => 'CONTACTS_GTB_MATCHES_1CONTACTS_IDA',
     'width' => 10,
-    'name' => 'status',
+    'default' => true,
   ),
-  'STAGE' => 
+  'GTB_POSITIONS_GTB_MATCHES_1_NAME' => 
   array (
-    'type' => 'enum',
-    'default' => true,
-    'label' => 'LBL_STAGE',
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_GTB_POSITIONS_GTB_MATCHES_1_FROM_GTB_POSITIONS_TITLE',
+    'id' => 'GTB_POSITIONS_GTB_MATCHES_1GTB_POSITIONS_IDA',
     'width' => 10,
-    'name' => 'stage',
+    'default' => true,
   ),
-  'FULFILLMENT' => 
+  'TEAM_NAME' => 
   array (
-    'type' => 'enum',
-    'default' => true,
-    'label' => 'LBL_FULFILLMENT',
+    'type' => 'relate',
+    'link' => true,
+    'studio' => 
+    array (
+      'portallistview' => false,
+      'portalrecordview' => false,
+    ),
+    'label' => 'LBL_TEAMS',
+    'id' => 'TEAM_ID',
     'width' => 10,
-    'name' => 'fulfillment',
+    'default' => true,
+  ),
+  'ASSIGNED_USER_NAME' => 
+  array (
+    'link' => true,
+    'type' => 'relate',
+    'related_fields' => 
+    array (
+      0 => 'assigned_user_id',
+    ),
+    'label' => 'LBL_ASSIGNED_TO',
+    'id' => 'ASSIGNED_USER_ID',
+    'width' => 10,
+    'default' => true,
+  ),
+  'DATE_MODIFIED' => 
+  array (
+    'type' => 'datetime',
+    'studio' => 
+    array (
+      'portaleditview' => false,
+    ),
+    'readonly' => true,
+    'label' => 'LBL_DATE_MODIFIED',
+    'width' => 10,
+    'default' => true,
   ),
 ),
 );

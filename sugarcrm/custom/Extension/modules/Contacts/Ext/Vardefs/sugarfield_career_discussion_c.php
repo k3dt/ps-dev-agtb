@@ -1,0 +1,32 @@
+<?php
+ // created: 2020-11-11 20:42:15
+$dictionary['Contact']['fields']['career_discussion_c'] = [
+    'labelValue' => 'Date of Career Aspiration Discussion',
+    'enforced' => '',
+    'dependency' => '',
+    'required_formula' => '',
+    'required' => false,
+    'source' => 'custom_fields',
+    'name' => 'career_discussion_c',
+    'vname' => 'LBL_CAREER_DISCUSSION_C',
+    'type' => 'date',
+    'massupdate' => true,
+    'hidemassupdate' => false,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => 0,
+    'audited' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'pii' => false,
+    'calculated' => false,
+    'size' => '20',
+    'enable_range_search' => false,
+    'id' => '6201bb62-245e-11eb-931b-0242ac140007',
+    'custom_module' => 'Contacts',
+];
+ ?>

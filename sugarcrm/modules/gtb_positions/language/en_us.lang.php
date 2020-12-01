@@ -14,7 +14,7 @@ $mod_strings = array (
   'LBL_TEAMS' => 'Teams',
   'LBL_TEAM_ID' => 'Team Id',
   'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+  'LBL_ASSIGNED_TO_NAME' => 'Talent Broker',
   'LBL_ASSIGNED_TO' => 'Talent Broker',
   'LBL_ASSIGNED_TO_USER' => 'Talent Broker',
   'LBL_LIST_ASSIGNED_USER' => 'Talent Broker',
@@ -69,4 +69,5 @@ $mod_strings = array (
   'LBL_REASON_NOT_FILLED' => 'Reason for Not Filled',
   'LBL_RECORD_BODY' => 'General Information',
   'LBL_SHOW_MORE' => 'System Information',
+  'LBL_COUNTRY' => 'Country',
 );

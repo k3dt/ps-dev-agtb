@@ -93,10 +93,38 @@ $viewdefs[$module_name]['base']['view']['list'] = array (
         ),
         10 =>
         array (
+          'name' => 'primary_address_country',
+          'label' => 'LBL_PRIMARY_ADDRESS_COUNTRY',
+          'enabled' => true,
+          'default' => false,
+        ),
+        11 =>
+        array (
+          'name' => 'primary_address_city',
+          'label' => 'LBL_PRIMARY_ADDRESS_CITY',
+          'enabled' => true,
+          'default' => false,
+        ),
+        12 =>
+        array (
+          'name' => 'primary_address_state',
+          'label' => 'LBL_PRIMARY_ADDRESS_STATE',
+          'enabled' => true,
+          'default' => false,
+        ),
+        13 =>
+        array (
           'name' => 'primary_address_street',
           'label' => 'LBL_PRIMARY_ADDRESS_STREET',
           'default' => false,
           'enabled' => true,
+        ),
+        14 =>
+        array (
+          'name' => 'primary_address_postalcode',
+          'label' => 'LBL_PRIMARY_ADDRESS_POSTALCODE',
+          'enabled' => true,
+          'default' => false,
         ),
       ),
     ),

@@ -1,53 +1,56 @@
 <?php
-/*
- * Your installation or use of this SugarCRM file is subject to the applicable
- * terms available at
- * http://support.sugarcrm.com/Resources/Master_Subscription_Agreements/.
- * If you do not agree to all of the applicable terms or do not have the
- * authority to bind the entity as an authorized representative, then do not
- * install or use this SugarCRM file.
- *
- * Copyright (C) SugarCRM Inc. All rights reserved.
- */
-
 $module_name = 'gtb_contacts';
-$viewdefs[$module_name]['base']['view']['selection-list'] = array(
-    'panels' => array(
-        array(
+$viewdefs[$module_name]['base']['view']['selection-list'] = array (
+        'panels' => 
+        array (
+          0 => 
+          array (
             'label' => 'LBL_PANEL_1',
-            'fields' => array(
-                array(
-                    'name' => 'name',
-                    'label' => 'LBL_NAME',
-                    'default' => true,
-                    'enabled' => true,
-                    'link' => true,
-                ),
-                array(
-                    'name' => 'team_name',
-                    'label' => 'LBL_TEAM',
-                    'default' => true,
-                    'enabled' => true,
-                ),
-                array(
-                    'name' => 'assigned_user_name',
-                    'label' => 'LBL_ASSIGNED_TO_NAME',
-                    'default' => true,
-                    'enabled' => true,
-                    'link' => true,
-                ),
-                array(
-                    'label' => 'LBL_DATE_MODIFIED',
-                    'enabled' => true,
-                    'default' => true,
-                    'name' => 'date_modified',
-                    'readonly' => true,
-                ),
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'name',
+                'label' => 'LBL_NAME',
+                'default' => true,
+                'enabled' => true,
+                'link' => true,
+              ),
+              1 => 
+              array (
+                'name' => 'title',
+                'label' => 'LBL_TITLE',
+                'enabled' => true,
+                'default' => true,
+              ),
+              2 => 
+              array (
+                'name' => 'phone_mobile',
+                'label' => 'LBL_MOBILE_PHONE',
+                'enabled' => true,
+                'default' => true,
+              ),
+              3 => 
+              array (
+                'name' => 'department',
+                'label' => 'LBL_DEPARTMENT',
+                'enabled' => true,
+                'default' => true,
+              ),
+              4 => 
+              array (
+                'name' => 'email',
+                'label' => 'LBL_EMAIL_ADDRESS',
+                'enabled' => true,
+                'sortable' => false,
+                'default' => true,
+              ),
             ),
+          ),
         ),
-    ),
-    'orderBy' => array(
-        'field' => 'date_modified',
-        'direction' => 'desc',
-    ),
+        'orderBy' => 
+        array (
+          'field' => 'date_modified',
+          'direction' => 'desc',
+        ),
 );

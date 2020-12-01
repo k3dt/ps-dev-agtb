@@ -14,7 +14,7 @@
 $dictionary['gtb_matches'] = array(
     'table' => 'gtb_matches',
     'audited' => true,
-    'activity_enabled' => false,
+    'activity_enabled' => true,
     'duplicate_merge' => true,
     'fields' => array (
   'name' => 

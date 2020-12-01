@@ -1,5 +1,6 @@
 <?php
-$viewdefs['Contacts']['mobile']['view']['list']['panels'] =
+$viewdefs['Contacts']['mobile']['view']['list'] = array (
+        'panels' => 
         array (
           0 => 
           array (
@@ -22,48 +23,33 @@ $viewdefs['Contacts']['mobile']['view']['list']['panels'] =
               ),
               1 => 
               array (
-                'name' => 'title',
-                'label' => 'LBL_TITLE',
+                'name' => 'gtb_cluster_c',
+                'label' => 'LBL_GTB_CLUSTER_C',
                 'enabled' => true,
                 'default' => true,
               ),
               2 => 
               array (
-                'name' => 'phone_work',
-                'label' => 'LBL_OFFICE_PHONE',
+                'name' => 'title',
+                'label' => 'LBL_TITLE',
                 'enabled' => true,
                 'default' => false,
               ),
               3 => 
               array (
-                'name' => 'phone_mobile',
+                'name' => 'org_unit_c',
+                'label' => 'LBL_ORG_UNIT_C',
                 'enabled' => true,
                 'default' => false,
               ),
               4 => 
               array (
-                'name' => 'primary_address_street',
-                'enabled' => true,
-                'default' => false,
-              ),
-              5 => 
-              array (
-                'name' => 'primary_address_city',
-                'enabled' => true,
-                'default' => false,
-              ),
-              6 => 
-              array (
-                'name' => 'primary_address_country',
-                'enabled' => true,
-                'default' => false,
-              ),
-              7 => 
-              array (
-                'name' => 'email',
+                'name' => 'function_c',
+                'label' => 'LBL_FUNCTION_C',
                 'enabled' => true,
                 'default' => false,
               ),
             ),
           ),
+        ),
 );

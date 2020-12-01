@@ -1,5 +1,5 @@
 <?php
-// created: 2020-11-10 22:55:42
+// created: 2020-11-12 01:42:36
 $viewdefs['Contacts']['base']['filter']['default'] = array (
   'default_filter' => 'all_records',
   'quicksearch_field' => 
@@ -25,58 +25,8 @@ $viewdefs['Contacts']['base']['filter']['default'] = array (
     'title' => 
     array (
     ),
-    'phone' => 
+    'lead_source' => 
     array (
-      'dbFields' => 
-      array (
-        0 => 'phone_mobile',
-        1 => 'phone_work',
-        2 => 'phone_other',
-        3 => 'phone_fax',
-        4 => 'assistant_phone',
-      ),
-      'type' => 'phone',
-      'vname' => 'LBL_PHONE',
-    ),
-    'address_street' => 
-    array (
-      'dbFields' => 
-      array (
-        0 => 'primary_address_street',
-        1 => 'alt_address_street',
-      ),
-      'vname' => 'LBL_STREET',
-      'type' => 'text',
-    ),
-    'address_city' => 
-    array (
-      'dbFields' => 
-      array (
-        0 => 'primary_address_city',
-        1 => 'alt_address_city',
-      ),
-      'vname' => 'LBL_CITY',
-      'type' => 'text',
-    ),
-    'address_state' => 
-    array (
-      'dbFields' => 
-      array (
-        0 => 'primary_address_state',
-        1 => 'alt_address_state',
-      ),
-      'vname' => 'LBL_STATE',
-      'type' => 'text',
-    ),
-    'address_postalcode' => 
-    array (
-      'dbFields' => 
-      array (
-        0 => 'primary_address_postalcode',
-        1 => 'alt_address_postalcode',
-      ),
-      'vname' => 'LBL_POSTAL_CODE',
-      'type' => 'text',
     ),
     'address_country' => 
     array (
@@ -88,6 +38,39 @@ $viewdefs['Contacts']['base']['filter']['default'] = array (
       'vname' => 'LBL_COUNTRY',
       'type' => 'text',
     ),
+    'gender_c' => 
+    array (
+    ),
+    'target_roles_c' => 
+    array (
+    ),
+    'availability_c' => 
+    array (
+    ),
+    'gtb_cluster_c' => 
+    array (
+    ),
+    'career_discussion_c' => 
+    array (
+    ),
+    'oe_mobility_c' => 
+    array (
+    ),
+    'mobility_comments_c' => 
+    array (
+    ),
+    'org_unit_c' => 
+    array (
+    ),
+    'functional_mobility_c' => 
+    array (
+    ),
+    'function_c' => 
+    array (
+    ),
+      'gtb_country_match_c' =>
+          array (
+          ),
     'date_entered' => 
     array (
     ),

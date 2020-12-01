@@ -88,9 +88,33 @@ $viewdefs[$module_name]['mobile']['view']['edit'] = array (
           'comment' => 'The street address used for primary address',
           'label' => 'LBL_PRIMARY_ADDRESS_STREET',
         ),
-        9 => 'tag',
-        10 => 'assigned_user_name',
-        11 => 'team_name',
+        9 =>
+        array (
+          'name' => 'primary_address_postalcode',
+          'comment' => 'Postal code for primary address',
+          'label' => 'LBL_PRIMARY_ADDRESS_POSTALCODE',
+        ),
+        10 =>
+        array (
+          'name' => 'primary_address_city',
+          'comment' => 'City for primary address',
+          'label' => 'LBL_PRIMARY_ADDRESS_CITY',
+        ),
+        11 =>
+        array (
+          'name' => 'primary_address_state',
+          'comment' => 'State for primary address',
+          'label' => 'LBL_PRIMARY_ADDRESS_STATE',
+        ),
+        12 =>
+        array (
+          'name' => 'primary_address_country',
+          'comment' => 'Country for primary address',
+          'label' => 'LBL_PRIMARY_ADDRESS_COUNTRY',
+        ),
+        13 => 'tag',
+        14 => 'assigned_user_name',
+        15 => 'team_name',
       ),
     ),
   ),

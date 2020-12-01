@@ -14,7 +14,7 @@
 $dictionary['gtb_positions'] = array(
     'table' => 'gtb_positions',
     'audited' => true,
-    'activity_enabled' => false,
+    'activity_enabled' => true,
     'duplicate_merge' => true,
     'fields' => array (
   'pos_function' => 
@@ -135,12 +135,38 @@ $dictionary['gtb_positions'] = array(
     'options' => 'gtb_region_list',
     'dependency' => false,
   ),
+        'country' =>
+            array (
+                'required' => true,
+                'name' => 'country',
+                'vname' => 'LBL_COUNTRY',
+                'type' => 'enum',
+                'massupdate' => true,
+                'hidemassupdate' => false,
+                'no_default' => false,
+                'comments' => '',
+                'help' => '',
+                'importable' => 'true',
+                'duplicate_merge' => 'enabled',
+                'duplicate_merge_dom_value' => '1',
+                'audited' => true,
+                'reportable' => true,
+                'unified_search' => false,
+                'merge_filter' => 'disabled',
+                'pii' => false,
+                'default' => '',
+                'calculated' => false,
+                'len' => 100,
+                'size' => '20',
+                'options' => 'countries_dom',
+                'dependency' => false,
+            ),
   'org_unit' => 
   array (
     'required' => true,
     'name' => 'org_unit',
     'vname' => 'LBL_ORG_UNIT',
-    'type' => 'varchar',
+    'type' => 'enum',
     'massupdate' => false,
     'hidemassupdate' => false,
     'no_default' => false,
@@ -155,15 +181,11 @@ $dictionary['gtb_positions'] = array(
     'merge_filter' => 'disabled',
     'pii' => false,
     'default' => '',
-    'full_text_search' => 
-    array (
-      'enabled' => true,
-      'boost' => '1',
-      'searchable' => true,
-    ),
     'calculated' => false,
-    'len' => '255',
+    'len' => 100,
     'size' => '20',
+    'options' => 'gtb_oe_mobility_list',
+    'dependency' => false,
   ),
   'location' => 
   array (
@@ -317,7 +339,7 @@ $dictionary['gtb_positions'] = array(
         array (
           0 => 'Closed',
         ),
-        '' => 
+        'Position_Identified' =>
         array (
           0 => 'New',
         ),
@@ -343,7 +365,7 @@ $dictionary['gtb_positions'] = array(
     'unified_search' => false,
     'merge_filter' => 'disabled',
     'pii' => false,
-    'default' => '',
+    'default' => 'Position_Identified',
     'calculated' => false,
     'len' => 100,
     'size' => '20',

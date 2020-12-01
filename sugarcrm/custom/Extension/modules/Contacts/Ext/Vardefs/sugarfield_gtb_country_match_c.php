@@ -1,0 +1,35 @@
+<?php
+ // created: 2020-11-13 03:54:03
+$dictionary['Contact']['fields']['gtb_country_match_c'] = [
+        'labelValue' => 'Country Match',
+        'dependency' => '',
+        'required_formula' => '',
+        'visibility_grid' => '',
+        'required' => false,
+        'source' => 'custom_fields',
+        'name' => 'gtb_country_match_c',
+        'vname' => 'LBL_GTB_COUNTRY_MATCH_C',
+        'type' => 'multienum',
+        'massupdate' => true,
+        'hidemassupdate' => false,
+        'no_default' => false,
+        'comments' => '',
+        'help' => '',
+        'importable' => 'false',
+        'duplicate_merge' => 'disabled',
+        'duplicate_merge_dom_value' => 0,
+        'audited' => false,
+        'reportable' => false,
+        'unified_search' => false,
+        'merge_filter' => 'disabled',
+        'pii' => false,
+        'calculated' => false,
+        'size' => '20',
+        'options' => 'countries_dom',
+        'default' => NULL,
+        'isMultiSelect' => true,
+        'id' => 'df0e8d64-2563-11eb-a800-0242ac140007',
+        'custom_module' => 'Contacts',
+];
+
+ ?>

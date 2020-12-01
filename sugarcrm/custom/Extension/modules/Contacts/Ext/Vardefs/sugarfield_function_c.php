@@ -1,0 +1,35 @@
+<?php
+ // created: 2020-11-11 20:32:14
+$dictionary['Contact']['fields']['function_c'] = [
+    'labelValue' => 'Function',
+    'dependency' => '',
+    'required_formula' => '',
+    'visibility_grid' => '',
+    'required' => true,
+    'source' => 'custom_fields',
+    'name' => 'function_c',
+    'vname' => 'LBL_FUNCTION_C',
+    'type' => 'enum',
+    'massupdate' => true,
+    'hidemassupdate' => false,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => 0,
+    'audited' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'pii' => false,
+    'calculated' => false,
+    'len' => 100,
+    'size' => '20',
+    'options' => 'gtb_function_list',
+    'default' => NULL,
+    'id' => 'fbf3f44e-245c-11eb-a31b-0242ac140007',
+    'custom_module' => 'Contacts',
+];
+
+ ?>

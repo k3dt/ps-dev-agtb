@@ -1,21 +1,21 @@
 <?php
 $module_name = 'gtb_matches';
 $viewdefs[$module_name]['base']['view']['record'] = array (
-  'buttons' =>
+  'buttons' => 
   array (
-    0 =>
+    0 => 
     array (
       'type' => 'button',
       'name' => 'cancel_button',
       'label' => 'LBL_CANCEL_BUTTON_LABEL',
       'css_class' => 'btn-invisible btn-link',
       'showOn' => 'edit',
-      'events' =>
+      'events' => 
       array (
         'click' => 'button:cancel_button:click',
       ),
     ),
-    1 =>
+    1 => 
     array (
       'type' => 'rowaction',
       'event' => 'button:save_button:click',
@@ -25,15 +25,15 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
       'showOn' => 'edit',
       'acl_action' => 'edit',
     ),
-    2 =>
+    2 => 
     array (
       'type' => 'actiondropdown',
       'name' => 'main_dropdown',
       'primary' => true,
       'showOn' => 'view',
-      'buttons' =>
+      'buttons' => 
       array (
-        0 =>
+        0 => 
         array (
           'type' => 'rowaction',
           'event' => 'button:edit_button:click',
@@ -41,14 +41,14 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
           'label' => 'LBL_EDIT_BUTTON_LABEL',
           'acl_action' => 'edit',
         ),
-        1 =>
+        1 => 
         array (
           'type' => 'shareaction',
           'name' => 'share',
           'label' => 'LBL_RECORD_SHARE_BUTTON',
           'acl_action' => 'view',
         ),
-        2 =>
+        2 => 
         array (
           'type' => 'pdfaction',
           'name' => 'download-pdf',
@@ -56,7 +56,7 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
           'action' => 'download',
           'acl_action' => 'view',
         ),
-        3 =>
+        3 => 
         array (
           'type' => 'pdfaction',
           'name' => 'email-pdf',
@@ -64,11 +64,11 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
           'action' => 'email',
           'acl_action' => 'view',
         ),
-        4 =>
+        4 => 
         array (
           'type' => 'divider',
         ),
-        5 =>
+        5 => 
         array (
           'type' => 'rowaction',
           'event' => 'button:find_duplicates_button:click',
@@ -76,7 +76,7 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
           'label' => 'LBL_DUP_MERGE',
           'acl_action' => 'edit',
         ),
-        6 =>
+        6 => 
         array (
           'type' => 'rowaction',
           'event' => 'button:duplicate_button:click',
@@ -85,7 +85,7 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
           'acl_module' => 'gtb_matches',
           'acl_action' => 'create',
         ),
-        7 =>
+        7 => 
         array (
           'type' => 'rowaction',
           'event' => 'button:audit_button:click',
@@ -93,11 +93,11 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
           'label' => 'LNK_VIEW_CHANGE_LOG',
           'acl_action' => 'view',
         ),
-        8 =>
+        8 => 
         array (
           'type' => 'divider',
         ),
-        9 =>
+        9 => 
         array (
           'type' => 'rowaction',
           'event' => 'button:delete_button:click',
@@ -107,22 +107,22 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
         ),
       ),
     ),
-    3 =>
+    3 => 
     array (
       'name' => 'sidebar_toggle',
       'type' => 'sidebartoggle',
     ),
   ),
-  'panels' =>
+  'panels' => 
   array (
-    0 =>
+    0 => 
     array (
       'name' => 'panel_header',
       'label' => 'LBL_RECORD_HEADER',
       'header' => true,
-      'fields' =>
+      'fields' => 
       array (
-        0 =>
+        0 => 
         array (
           'name' => 'picture',
           'type' => 'avatar',
@@ -133,7 +133,7 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
           'size' => 'large',
         ),
         1 => 'name',
-        2 =>
+        2 => 
         array (
           'name' => 'favorite',
           'label' => 'LBL_FAVORITE',
@@ -141,7 +141,7 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
           'readonly' => true,
           'dismiss_label' => true,
         ),
-        3 =>
+        3 => 
         array (
           'name' => 'follow',
           'label' => 'LBL_FOLLOW',
@@ -151,7 +151,7 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
         ),
       ),
     ),
-    1 =>
+    1 => 
     array (
       'name' => 'panel_body',
       'label' => 'LBL_RECORD_BODY',
@@ -159,50 +159,58 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
       'placeholders' => true,
       'newTab' => true,
       'panelDefault' => 'expanded',
-      'fields' =>
+      'fields' => 
       array (
-        0 =>
+        0 => 
+        array (
+          'name' => 'contacts_gtb_matches_1_name',
+        ),
+        1 => 
+        array (
+          'name' => 'gtb_positions_gtb_matches_1_name',
+        ),
+        2 => 
         array (
           'name' => 'status',
           'label' => 'LBL_STATUS',
         ),
-        1 =>
+        3 => 
         array (
           'name' => 'stage',
           'label' => 'LBL_STAGE',
         ),
-        2 =>
+        4 => 
         array (
           'name' => 'fulfillment',
           'label' => 'LBL_FULFILLMENT',
           'span' => 6,
         ),
-        3 =>
+        5 => 
         array (
           'span' => 6,
         ),
-        4 =>
+        6 => 
         array (
           'name' => 'func_mobility_fulfilled',
           'label' => 'LBL_FUNC_MOBILITY_FULFILLED',
         ),
-        5 =>
+        7 => 
         array (
           'name' => 'geo_mobility_fulfilled',
           'label' => 'LBL_GEO_MOBILITY_FULFILLED',
         ),
-        6 =>
+        8 => 
         array (
           'name' => 'oe_mobility_fulfilled',
           'label' => 'LBL_OE_MOBILITY_FULFILLED',
         ),
-        7 =>
+        9 => 
         array (
           'name' => 'tag',
         ),
       ),
     ),
-    2 =>
+    2 => 
     array (
       'name' => 'panel_hidden',
       'label' => 'LBL_SHOW_MORE',
@@ -211,53 +219,53 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
       'placeholders' => true,
       'newTab' => true,
       'panelDefault' => 'expanded',
-      'fields' =>
+      'fields' => 
       array (
         0 => 'assigned_user_name',
-        1 =>
+        1 => 
         array (
           'name' => 'date_entered_by',
           'readonly' => true,
           'inline' => true,
           'type' => 'fieldset',
           'label' => 'LBL_DATE_ENTERED',
-          'fields' =>
+          'fields' => 
           array (
-            0 =>
+            0 => 
             array (
               'name' => 'date_entered',
             ),
-            1 =>
+            1 => 
             array (
               'type' => 'label',
               'default_value' => 'LBL_BY',
             ),
-            2 =>
+            2 => 
             array (
               'name' => 'created_by_name',
             ),
           ),
         ),
         2 => 'team_name',
-        3 =>
+        3 => 
         array (
           'name' => 'date_modified_by',
           'readonly' => true,
           'inline' => true,
           'type' => 'fieldset',
           'label' => 'LBL_DATE_MODIFIED',
-          'fields' =>
+          'fields' => 
           array (
-            0 =>
+            0 => 
             array (
               'name' => 'date_modified',
             ),
-            1 =>
+            1 => 
             array (
               'type' => 'label',
               'default_value' => 'LBL_BY',
             ),
-            2 =>
+            2 => 
             array (
               'name' => 'modified_by_name',
             ),
@@ -266,7 +274,7 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
       ),
     ),
   ),
-  'templateMeta' =>
+  'templateMeta' => 
   array (
     'useTabs' => true,
   ),
