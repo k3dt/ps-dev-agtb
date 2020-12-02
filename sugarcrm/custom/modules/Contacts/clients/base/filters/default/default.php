@@ -1,5 +1,5 @@
 <?php
-// created: 2020-11-12 01:42:36
+
 $viewdefs['Contacts']['base']['filter']['default'] = array (
   'default_filter' => 'all_records',
   'quicksearch_field' => 
@@ -10,7 +10,6 @@ $viewdefs['Contacts']['base']['filter']['default'] = array (
       1 => 'last_name',
     ),
     1 => 'email',
-    2 => 'account_name',
     3 => 'phone_work',
   ),
   'quicksearch_priority' => 2,

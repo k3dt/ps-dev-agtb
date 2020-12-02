@@ -13,7 +13,7 @@ $module_name = 'gtb_positions';
 $viewdefs[$module_name]['base']['menu']['quickcreate'] = array(
     'layout' => 'create',
     'label' => 'LNK_NEW_RECORD',
-    'visible' => false,
+    'visible' => true,
     'icon' => 'fa-plus',
     'order' => 1,
 );
