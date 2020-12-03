@@ -112,7 +112,7 @@ $dictionary['Contact']['fields']['geo_mobility_country_1_c'] = array (
 
 
 $dictionary['Contact']['fields']['geo_mobility_country_2_c'] = array (
-    'required' => false,
+    'required' => true,
     'name' => 'geo_mobility_country_2_c',
     'vname' => 'LBL_GEO_MOBILITY_COUNTRY_2_C',
     'type' => 'multienum',
@@ -223,7 +223,7 @@ $dictionary['Contact']['fields']['geo_mobility_country_2_c'] = array (
 
 
 $dictionary['Contact']['fields']['geo_mobility_country_3_c'] = array (
-    'required' => false,
+    'required' => true,
     'name' => 'geo_mobility_country_3_c',
     'vname' => 'LBL_GEO_MOBILITY_COUNTRY_3_C',
     'type' => 'multienum',
@@ -334,7 +334,7 @@ $dictionary['Contact']['fields']['geo_mobility_country_3_c'] = array (
 
 
 $dictionary['Contact']['fields']['geo_mobility_country_4_c'] = array (
-    'required' => false,
+    'required' => true,
     'name' => 'geo_mobility_country_4_c',
     'vname' => 'LBL_GEO_MOBILITY_COUNTRY_4_C',
     'type' => 'multienum',
@@ -445,7 +445,7 @@ $dictionary['Contact']['fields']['geo_mobility_country_4_c'] = array (
 
 
 $dictionary['Contact']['fields']['geo_mobility_country_5_c'] = array (
-    'required' => false,
+    'required' => true,
     'name' => 'geo_mobility_country_5_c',
     'vname' => 'LBL_GEO_MOBILITY_COUNTRY_5_C',
     'type' => 'multienum',
@@ -556,7 +556,7 @@ $dictionary['Contact']['fields']['geo_mobility_country_5_c'] = array (
 
 
 $dictionary['Contact']['fields']['geo_mobility_country_6_c'] = array (
-    'required' => false,
+    'required' => true,
     'name' => 'geo_mobility_country_6_c',
     'vname' => 'LBL_GEO_MOBILITY_COUNTRY_6_C',
     'type' => 'multienum',
