@@ -53,7 +53,6 @@ $mod_strings = array (
   'LNK_IMPORT_VCARD' => 'Import Potential Match vCard',
   'LBL_IMPORT' => 'Import Potential Matches',
   'LBL_IMPORT_VCARDTEXT' => 'Automatically create a new Potential Match record by importing a vCard from your file system.',
-  'LBL_STATUS' => 'Status',
   'LBL_STAGE' => 'Stage',
   'LBL_FULFILLMENT' => 'Fulfillment',
   'LBL_FUNC_MOBILITY_FULFILLED' => 'Functional Mobility Fulfilled',

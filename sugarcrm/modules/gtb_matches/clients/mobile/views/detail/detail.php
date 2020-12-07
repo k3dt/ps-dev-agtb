@@ -51,39 +51,40 @@ $viewdefs[$module_name]['mobile']['view']['detail'] = array (
           'name' => 'gtb_positions_gtb_matches_1_name',
           'label' => 'LBL_GTB_POSITIONS_GTB_MATCHES_1_FROM_GTB_POSITIONS_TITLE',
         ),
-        3 => 
-        array (
-          'name' => 'status',
-          'label' => 'LBL_STATUS',
-        ),
-        4 => 
+        3 =>
         array (
           'name' => 'stage',
           'label' => 'LBL_STAGE',
         ),
-        5 => 
+        4 =>
+        array (
+          'name' => 'description',
+          'comment' => 'Full text of the note',
+          'label' => 'LBL_DESCRIPTION',
+        ),
+        5 =>
         array (
           'name' => 'fulfillment',
           'label' => 'LBL_FULFILLMENT',
         ),
-        6 => 
+        6 =>
         array (
           'name' => 'func_mobility_fulfilled',
           'label' => 'LBL_FUNC_MOBILITY_FULFILLED',
         ),
-        7 => 
+        7 =>
         array (
           'name' => 'geo_mobility_fulfilled',
           'label' => 'LBL_GEO_MOBILITY_FULFILLED',
         ),
-        8 => 
+        8 =>
         array (
           'name' => 'oe_mobility_fulfilled',
           'label' => 'LBL_OE_MOBILITY_FULFILLED',
         ),
         9 => 'assigned_user_name',
         10 => 'team_name',
-        11 => 
+        11 =>
         array (
           'name' => 'date_entered',
           'comment' => 'Date record created',
@@ -94,7 +95,7 @@ $viewdefs[$module_name]['mobile']['view']['detail'] = array (
           'readonly' => true,
           'label' => 'LBL_DATE_ENTERED',
         ),
-        12 => 
+        12 =>
         array (
           'name' => 'date_modified',
           'comment' => 'Date record last modified',

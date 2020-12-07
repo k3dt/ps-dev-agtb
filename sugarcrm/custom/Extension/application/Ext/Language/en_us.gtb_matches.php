@@ -12,10 +12,6 @@
 
 $app_list_strings['moduleList']['gtb_matches'] = 'Potential Matches';
 $app_list_strings['moduleListSingular']['gtb_matches'] = 'Potential Match';
-$app_list_strings['gtb_matches_status_list']['Open'] = 'Open';
-$app_list_strings['gtb_matches_status_list']['Placed'] = 'Placed';
-$app_list_strings['gtb_matches_status_list']['Rejected'] = 'Rejected';
-$app_list_strings['gtb_matches_status_list']['Not_Interested'] = 'Not Interested';
 $app_list_strings['gtb_fulfillment_list']['Yes'] = 'Yes';
 $app_list_strings['gtb_fulfillment_list']['No'] = 'No';
 $app_list_strings['gtb_fulfillment_list'][''] = '';

@@ -58,7 +58,6 @@ class gtb_matches_sugar extends Basic {
     public $locked_fields;
     public $locked_fields_link;
     public $sync_key;
-    public $status;
     public $stage;
     public $fulfillment;
     public $func_mobility_fulfilled;

@@ -1,5 +1,5 @@
 <?php
-// created: 2020-11-12 18:34:37
+// created: 2020-11-14 07:49:25
 $subpanel_layout['list_fields'] = array (
   'gtb_positions_gtb_matches_1_name' => 
   array (
@@ -13,19 +13,20 @@ $subpanel_layout['list_fields'] = array (
     'target_module' => 'gtb_positions',
     'target_record_key' => 'gtb_positions_gtb_matches_1gtb_positions_ida',
   ),
-  'status' => 
-  array (
-    'type' => 'enum',
-    'default' => true,
-    'vname' => 'LBL_STATUS',
-    'width' => 10,
-  ),
   'stage' => 
   array (
     'type' => 'enum',
     'default' => true,
     'vname' => 'LBL_STAGE',
     'width' => 10,
+  ),
+  'description' => 
+  array (
+    'type' => 'text',
+    'vname' => 'LBL_DESCRIPTION',
+    'sortable' => false,
+    'width' => 10,
+    'default' => true,
   ),
   'fulfillment' => 
   array (

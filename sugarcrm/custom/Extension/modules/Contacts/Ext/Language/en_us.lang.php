@@ -80,3 +80,4 @@ $mod_strings['LBL_PORTAL_TOUR_PROFILE_INTRO'] = 'The Profile is where you can ma
 $mod_strings['LBL_RECORDVIEW_PANEL3'] = 'Geographical Mobility';
 $mod_strings['LBL_GTB_COUNTRY_MATCH_C'] = 'Geographical Mobility';
 $mod_strings['LBL_GTB_FUNCTION_MATCH_C'] = 'Function Match';
+$mod_strings['LBL_DESCRIPTION'] = 'Executive Summary';

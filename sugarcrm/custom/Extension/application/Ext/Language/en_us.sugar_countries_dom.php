@@ -1,6 +1,7 @@
 <?php
 $app_list_strings['countries_dom'] = array(
     '' => '',
+    'All' => 'All',
     'AUSTRALIA' => 'Australia',
     'AUSTRIA' => 'Austria',
     'BELGIUM' => 'Belgium',

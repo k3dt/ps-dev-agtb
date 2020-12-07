@@ -50,13 +50,6 @@ $viewdefs[$module_name]['mobile']['view']['list'] = array (
           'enabled' => true,
           'default' => false,
         ),
-        5 => 
-        array (
-          'name' => 'status',
-          'label' => 'LBL_STATUS',
-          'enabled' => true,
-          'default' => false,
-        ),
       ),
     ),
   ),

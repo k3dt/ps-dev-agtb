@@ -1,5 +1,6 @@
 <?php
-$viewdefs['Contacts']['base']['view']['preview'] = array (
+$viewdefs['Contacts']['base']['view']['preview'] =
+      array (
         'panels' => 
         array (
           0 => 
@@ -78,54 +79,29 @@ $viewdefs['Contacts']['base']['view']['preview'] = array (
               ),
               10 => 
               array (
-                'name' => 'commentlog',
-                'displayParams' => 
-                array (
-                  'type' => 'commentlog',
-                  'fields' => 
-                  array (
-                    0 => 'entry',
-                    1 => 'date_entered',
-                    2 => 'created_by_name',
-                  ),
-                  'max_num' => 100,
-                ),
-                'studio' => 
-                array (
-                  'listview' => false,
-                  'recordview' => true,
-                  'wirelesseditview' => false,
-                  'wirelessdetailview' => true,
-                  'wirelesslistview' => false,
-                  'wireless_basic_search' => false,
-                  'wireless_advanced_search' => false,
-                ),
-                'label' => 'LBL_COMMENTLOG',
-                'span' => 12,
+                'name' => 'description',
+                'comment' => 'Full text of the note',
+                'label' => 'LBL_DESCRIPTION',
               ),
               11 => 
               array (
                 'name' => 'functional_mobility_c',
                 'label' => 'LBL_FUNCTIONAL_MOBILITY_C',
-                'span' => 12,
               ),
               12 => 
               array (
                 'name' => 'oe_mobility_c',
                 'label' => 'LBL_OE_MOBILITY_C',
-                'span' => 12,
               ),
               13 => 
               array (
                 'name' => 'mobility_comments_c',
                 'label' => 'LBL_MOBILITY_COMMENTS_C',
-                'span' => 12,
               ),
               14 => 
               array (
                 'name' => 'target_roles_c',
                 'label' => 'LBL_TARGET_ROLES_C',
-                'span' => 12,
               ),
               15 => 
               array (
@@ -353,6 +329,7 @@ $viewdefs['Contacts']['base']['view']['preview'] = array (
               ),
               5 => 
               array (
+                'span' => 12,
               ),
             ),
           ),
@@ -360,6 +337,6 @@ $viewdefs['Contacts']['base']['view']['preview'] = array (
         'templateMeta' => 
         array (
           'maxColumns' => 1,
-          'useTabs' => false,
+          'useTabs' => true,
         ),
 );

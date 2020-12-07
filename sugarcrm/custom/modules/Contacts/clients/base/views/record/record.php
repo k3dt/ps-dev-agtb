@@ -212,8 +212,9 @@ $viewdefs['Contacts']['base']['view']['record'] =
               array (
                 'name' => 'gtb_cluster_c',
                 'label' => 'LBL_GTB_CLUSTER_C',
-                'related_fields' => array(
-                  'gtb_cluster_match_c',
+                'related_fields' => 
+                array (
+                  0 => 'gtb_cluster_match_c',
                 ),
               ),
               5 => 
@@ -230,8 +231,9 @@ $viewdefs['Contacts']['base']['view']['record'] =
               array (
                 'name' => 'primary_address_country',
                 'label' => 'LBL_PRIMARY_ADDRESS_COUNTRY',
-                'related_fields' => array(
-                  'gtb_country_match_c',
+                'related_fields' => 
+                array (
+                  0 => 'gtb_country_match_c',
                 ),
               ),
               8 => 'phone_mobile',
@@ -246,39 +248,18 @@ $viewdefs['Contacts']['base']['view']['record'] =
               ),
               12 => 
               array (
-                'name' => 'commentlog',
-                'displayParams' => 
-                array (
-                  'type' => 'commentlog',
-                  'fields' => 
-                  array (
-                    0 => 'entry',
-                    1 => 'date_entered',
-                    2 => 'created_by_name',
-                  ),
-                  'max_num' => 100,
-                ),
-                'studio' => 
-                array (
-                  'listview' => false,
-                  'recordview' => true,
-                  'wirelesseditview' => false,
-                  'wirelessdetailview' => true,
-                  'wirelesslistview' => false,
-                  'wireless_basic_search' => false,
-                  'wireless_advanced_search' => false,
-                ),
-                'label' => 'LBL_COMMENTLOG',
+                'name' => 'description',
                 'span' => 12,
               ),
               13 => 
               array (
                 'name' => 'functional_mobility_c',
                 'label' => 'LBL_FUNCTIONAL_MOBILITY_C',
-                'span' => 12,
-                'related_fields' => array(
-                  'gtb_function_match_c',
+                'related_fields' => 
+                array (
+                  0 => 'gtb_function_match_c',
                 ),
+                'span' => 12,
               ),
               14 => 
               array (

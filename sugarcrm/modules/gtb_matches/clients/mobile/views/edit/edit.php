@@ -42,32 +42,33 @@ $viewdefs[$module_name]['mobile']['view']['edit'] = array (
           'name' => 'gtb_positions_gtb_matches_1_name',
           'label' => 'LBL_GTB_POSITIONS_GTB_MATCHES_1_FROM_GTB_POSITIONS_TITLE',
         ),
-        3 => 
-        array (
-          'name' => 'status',
-          'label' => 'LBL_STATUS',
-        ),
-        4 => 
+        3 =>
         array (
           'name' => 'stage',
           'label' => 'LBL_STAGE',
         ),
-        5 => 
+        4 =>
         array (
           'name' => 'fulfillment',
           'label' => 'LBL_FULFILLMENT',
         ),
-        6 => 
+        5 =>
+        array (
+          'name' => 'description',
+          'comment' => 'Full text of the note',
+          'label' => 'LBL_DESCRIPTION',
+        ),
+        6 =>
         array (
           'name' => 'func_mobility_fulfilled',
           'label' => 'LBL_FUNC_MOBILITY_FULFILLED',
         ),
-        7 => 
+        7 =>
         array (
           'name' => 'geo_mobility_fulfilled',
           'label' => 'LBL_GEO_MOBILITY_FULFILLED',
         ),
-        8 => 
+        8 =>
         array (
           'name' => 'oe_mobility_fulfilled',
           'label' => 'LBL_OE_MOBILITY_FULFILLED',

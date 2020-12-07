@@ -159,55 +159,60 @@ $viewdefs[$module_name]['base']['view']['record'] = array (
       'placeholders' => true,
       'newTab' => true,
       'panelDefault' => 'expanded',
-      'fields' => 
+      'fields' =>
       array (
-        0 => 
-        array (
-          'name' => 'contacts_gtb_matches_1_name',
-        ),
-        1 => 
-        array (
-          'name' => 'gtb_positions_gtb_matches_1_name',
-        ),
-        2 => 
-        array (
-          'name' => 'status',
-          'label' => 'LBL_STATUS',
-        ),
-        3 => 
-        array (
-          'name' => 'stage',
-          'label' => 'LBL_STAGE',
-        ),
-        4 => 
-        array (
-          'name' => 'fulfillment',
-          'label' => 'LBL_FULFILLMENT',
-          'span' => 6,
-        ),
-        5 => 
-        array (
-          'span' => 6,
-        ),
-        6 => 
-        array (
-          'name' => 'func_mobility_fulfilled',
-          'label' => 'LBL_FUNC_MOBILITY_FULFILLED',
-        ),
-        7 => 
-        array (
-          'name' => 'geo_mobility_fulfilled',
-          'label' => 'LBL_GEO_MOBILITY_FULFILLED',
-        ),
-        8 => 
-        array (
-          'name' => 'oe_mobility_fulfilled',
-          'label' => 'LBL_OE_MOBILITY_FULFILLED',
-        ),
-        9 => 
-        array (
-          'name' => 'tag',
-        ),
+          0 =>
+              array (
+                  'name' => 'contacts_gtb_matches_1_name',
+              ),
+          1 =>
+              array (
+                  'name' => 'gtb_positions_gtb_matches_1_name',
+              ),
+          2 =>
+              array (
+                  'name' => 'stage',
+                  'label' => 'LBL_STAGE',
+              ),
+          3 =>
+              array (
+              ),
+          4 =>
+              array (
+                  'name' => 'description',
+                  'comment' => 'Full text of the note',
+                  'label' => 'LBL_DESCRIPTION',
+                  'span' => 12,
+              ),
+          5 =>
+              array (
+                  'name' => 'fulfillment',
+                  'label' => 'LBL_FULFILLMENT',
+                  'span' => 6,
+              ),
+          6 =>
+              array (
+                  'name' => 'func_mobility_fulfilled',
+                  'label' => 'LBL_FUNC_MOBILITY_FULFILLED',
+                  'span' => 6,
+              ),
+          7 =>
+              array (
+                  'name' => 'geo_mobility_fulfilled',
+                  'label' => 'LBL_GEO_MOBILITY_FULFILLED',
+              ),
+          8 =>
+              array (
+                  'name' => 'oe_mobility_fulfilled',
+                  'label' => 'LBL_OE_MOBILITY_FULFILLED',
+              ),
+          9 =>
+              array (
+                  'name' => 'tag',
+              ),
+          10 =>
+              array (
+              ),
       ),
     ),
     2 => 

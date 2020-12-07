@@ -36,49 +36,42 @@ $viewdefs[$module_name]['base']['view']['list'] = array (
           'sortable' => false,
           'default' => true,
         ),
-        3 => 
-        array (
-          'name' => 'status',
-          'label' => 'LBL_STATUS',
-          'enabled' => true,
-          'default' => true,
-        ),
-        4 => 
+        3 =>
         array (
           'name' => 'stage',
           'label' => 'LBL_STAGE',
           'enabled' => true,
           'default' => true,
         ),
-        5 => 
+        4 =>
         array (
           'name' => 'fulfillment',
           'label' => 'LBL_FULFILLMENT',
           'enabled' => true,
           'default' => true,
         ),
-        6 => 
+        5 =>
         array (
           'name' => 'func_mobility_fulfilled',
           'label' => 'LBL_FUNC_MOBILITY_FULFILLED',
           'enabled' => true,
           'default' => false,
         ),
-        7 => 
+        6 =>
         array (
           'name' => 'geo_mobility_fulfilled',
           'label' => 'LBL_GEO_MOBILITY_FULFILLED',
           'enabled' => true,
           'default' => false,
         ),
-        8 => 
+        7 =>
         array (
           'name' => 'oe_mobility_fulfilled',
           'label' => 'LBL_OE_MOBILITY_FULFILLED',
           'enabled' => true,
           'default' => false,
         ),
-        9 => 
+        8 =>
         array (
           'name' => 'assigned_user_name',
           'label' => 'LBL_ASSIGNED_TO_NAME',
@@ -86,24 +79,32 @@ $viewdefs[$module_name]['base']['view']['list'] = array (
           'enabled' => true,
           'link' => true,
         ),
-        10 => 
+        9 =>
         array (
           'name' => 'date_modified',
           'enabled' => true,
           'default' => false,
         ),
-        11 => 
+        10 =>
         array (
           'name' => 'date_entered',
           'enabled' => true,
           'default' => false,
         ),
-        12 => 
+        11 =>
         array (
           'name' => 'team_name',
           'label' => 'LBL_TEAM',
           'default' => false,
           'enabled' => true,
+        ),
+        12 =>
+        array (
+          'name' => 'description',
+          'label' => 'LBL_DESCRIPTION',
+          'enabled' => true,
+          'sortable' => false,
+          'default' => false,
         ),
       ),
     ),

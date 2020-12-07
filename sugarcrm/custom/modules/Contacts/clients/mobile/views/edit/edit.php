@@ -1,5 +1,6 @@
 <?php
-$viewdefs['Contacts']['mobile']['view']['edit'] = array (
+$viewdefs['Contacts']['mobile']['view']['edit']  =
+      array (
         'templateMeta' => 
         array (
           'maxColumns' => '1',
@@ -162,16 +163,22 @@ $viewdefs['Contacts']['mobile']['view']['edit'] = array (
               ),
               29 => 
               array (
+                'name' => 'description',
+                'comment' => 'Full text of the note',
+                'label' => 'LBL_DESCRIPTION',
+              ),
+              30 => 
+              array (
                 'name' => 'career_discussion_c',
                 'label' => 'LBL_CAREER_DISCUSSION_C',
               ),
-              30 => 
+              31 => 
               array (
                 'name' => 'availability_c',
                 'label' => 'LBL_AVAILABILITY_C',
               ),
-              31 => 'assigned_user_name',
-              32 => 'team_name',
+              32 => 'assigned_user_name',
+              33 => 'team_name',
             ),
           ),
         ),

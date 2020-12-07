@@ -10,7 +10,7 @@ $popupMeta = array (
   0 => 'gtb_matches_number',
   1 => 'name',
   2 => 'priority',
-  3 => 'status',
+  3 => 'stage',
 ),
     'listviewdefs' => array (
   'NAME' => 

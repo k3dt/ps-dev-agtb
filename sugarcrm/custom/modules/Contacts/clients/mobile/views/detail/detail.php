@@ -1,5 +1,6 @@
 <?php
-$viewdefs['Contacts']['mobile']['view']['detail'] = array (
+$viewdefs['Contacts']['mobile']['view']['detail'] =
+      array (
         'templateMeta' => 
         array (
           'maxColumns' => '1',
@@ -139,29 +140,9 @@ $viewdefs['Contacts']['mobile']['view']['detail'] = array (
               ),
               27 => 
               array (
-                'name' => 'commentlog',
-                'displayParams' => 
-                array (
-                  'type' => 'commentlog',
-                  'fields' => 
-                  array (
-                    0 => 'entry',
-                    1 => 'date_entered',
-                    2 => 'created_by_name',
-                  ),
-                  'max_num' => 100,
-                ),
-                'studio' => 
-                array (
-                  'listview' => false,
-                  'recordview' => true,
-                  'wirelesseditview' => false,
-                  'wirelessdetailview' => true,
-                  'wirelesslistview' => false,
-                  'wireless_basic_search' => false,
-                  'wireless_advanced_search' => false,
-                ),
-                'label' => 'LBL_COMMENTLOG',
+                'name' => 'description',
+                'comment' => 'Full text of the note',
+                'label' => 'LBL_DESCRIPTION',
               ),
               28 => 
               array (
